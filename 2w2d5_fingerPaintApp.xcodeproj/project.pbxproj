@@ -14,6 +14,8 @@
 		88C3C7861F128CCD003034ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C7851F128CCD003034ED /* Assets.xcassets */; };
 		88C3C7891F128CCD003034ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3C7871F128CCD003034ED /* LaunchScreen.storyboard */; };
 		88C3C7941F128CCD003034ED /* _w2d5_fingerPaintAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C7931F128CCD003034ED /* _w2d5_fingerPaintAppTests.m */; };
+		88C3C7A01F128CEC003034ED /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C79F1F128CEC003034ED /* PaintView.m */; };
+		88C3C7A31F128D01003034ED /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C3C7A21F128D01003034ED /* LineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		88C3C78F1F128CCD003034ED /* 2w2d5_fingerPaintAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2w2d5_fingerPaintAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3C7931F128CCD003034ED /* _w2d5_fingerPaintAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _w2d5_fingerPaintAppTests.m; sourceTree = "<group>"; };
 		88C3C7951F128CCE003034ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C3C79E1F128CEC003034ED /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		88C3C79F1F128CEC003034ED /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		88C3C7A11F128D01003034ED /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		88C3C7A21F128D01003034ED /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 		88C3C76D1F128CCD003034ED = {
 			isa = PBXGroup;
 			children = (
+				88C3C79E1F128CEC003034ED /* PaintView.h */,
+				88C3C79F1F128CEC003034ED /* PaintView.m */,
+				88C3C7A11F128D01003034ED /* LineView.h */,
+				88C3C7A21F128D01003034ED /* LineView.m */,
 				88C3C7781F128CCD003034ED /* 2w2d5_fingerPaintApp */,
 				88C3C7921F128CCD003034ED /* 2w2d5_fingerPaintAppTests */,
 				88C3C7771F128CCD003034ED /* Products */,
@@ -214,8 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C3C7811F128CCD003034ED /* ViewController.m in Sources */,
+				88C3C7A01F128CEC003034ED /* PaintView.m in Sources */,
 				88C3C77E1F128CCD003034ED /* AppDelegate.m in Sources */,
 				88C3C77B1F128CCD003034ED /* main.m in Sources */,
+				88C3C7A31F128D01003034ED /* LineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
