@@ -10,4 +10,9 @@
 
 @interface LineView : UIView
 
+@property (strong, nonatomic) UIBezierPath *path;
+@property (strong ,nonatomic) UIColor *lineColor;
+
+- (instancetype)initWithLineWidth:(CGFloat)width andColor:(UIColor*)color;
+
 @end

@@ -10,12 +10,15 @@
 
 @implementation LineView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)initWithLineWidth:(CGFloat)width andColor:(UIColor *)color
+{
+    self = [super init];
+    if (self) {
+        _path = [[UIBezierPath alloc]init];
+        _path.lineWidth = width;
+        _lineColor = color;
+    }
+    return self;
 }
-*/
 
 @end

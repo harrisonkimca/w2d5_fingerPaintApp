@@ -10,4 +10,8 @@
 
 @interface PaintView : UIView
 
+- (void)changeLineColor:(UIColor*)color;
+- (void)changeLineWidth:(CGFloat)width;
+- (void)clearScreen;
+
 @end
